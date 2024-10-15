@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terraria Fandom: Bosses</title>
+  <style>
+    body {
+      font-family: cursive;
+      margin: 0;
+      padding: 0;
+      background-color: #9EC8B9;
+      background-image: url("hell.gif");
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+		  font-weight: bolder;
+
+    }
+
+    header {
+      background-image: url("bossbg2.jpg"), url(bossbg.png);
+      background-position: top;
+      background-color: #092635;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #1B4242;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #666;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 400px;
+      margin: 10px;
+      border-radius: 5px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 2px;
+      position: fixed;
+      bottom: 0;
+      opacity: 0.8;
+      width: 100%;
+    }
+
+    .center-image {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+
+    .guide {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      /* Gap between divs */
+      padding: 20px;
+      background-color: #5C8374;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .container-text {
+      background-color: black;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    .image-div {
+      background-color: #9EC8B9;
+      padding: 20px;
+    }
+
+    .thumbnail {
+      height: auto;
+      max-width: 100%;
+      top: -50px;
+      left: -35px;
+      display: block;
+      z-index: 999;
+      cursor: pointer;
+      -webkit-transition-property: all;
+      -webkit-transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease;
+    }
+
+    .thumbnail:hover {
+      transform: scale(1.2);
+    }
+
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+@media (max-width: 600px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    
+      .thumbnail {
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .container {
+        padding: 10px;
+      }
+    }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <img src="Terraria.png" style="height:auto;width:100%;max-width: 400px;max-height:100px;" alt="Image 0">
+  </header>
+
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="NPC.html">NPCs</a>
+    <a href="Bosses.html">Bosses</a>
+    <a href="Classes.html">Classes</a>
+  </nav>
+  <h1 style="background-color:#1B4242;color:white;text-align:center;font-size:40px;">Bosses</h1><br>
+  <img src="eye.gif" class="thumbnail" style="display: block;margin: 0 auto;border-radius: 50%;width:400px;height:auto;max-width:100%;">
+
+  <section>
+    <h1 style="background-color:#1B4242;color:white;display:run-in;border-radius:15px;"> About </h1>
+    <section style="background-color:#5C8374;border-radius:15px;">
+      <p>• NPCs are friendly automated non-playable characters that provide services to players. Standing near an NPC and pressing the Interact button will open a dialogue window with one or more options
+        for the player to select. Most NPCs are vendors, displaying a shop inventory when the "Shop" option is selected. They sell items to players in exchange for coins, and can be sold items by a player
+        to obtain coins. Some NPCs also have other options that perform other functions.</p>
+      <p>• Most NPCs are town NPCs, appearing after various milestones are achieved in game advancement. They move into structures the player must provide, known as houses, which are generally required for town NPCs to remain available.</p>
+      <p>• NPCs can reduce enemy spawn rates in the area, an effect that increases the more of them are present. With 3 or more town NPCs nearby, enemies generally stop spawning on or near the visible screen altogether </p><br>
+    </section>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;font-size: 50px;">Pre-Hardmode Bosses</h1><br>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">King Slime</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="King_Slime.gif" class="thumbnail" height="300" width="400">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">King Slime</h1><br>
+      </div>
+      <p>• King Slime is a pre-Hardmode boss. His appearance is that of a massive Blue Slime wearing a jeweled golden crown and having what appears to be a ninja inside of him.
+        He lacks the crown on the Old-gen console version Old-gen console, Windows Phone version Windows Phone, and Nintendo 3DS version versions of the game.<br><br>
+        • King Slime spawns under one of the following conditions:<br>
+        - A player uses a Slime Crown.<br>
+        - 150 slimes are defeated during the Slime Rain event (or 75 if King Slime was already slain in the world at least once).<br>
+        - Rarely in the outer lateral sixths of the map, during daytime, and only on grass.<br><br>
+        • Fighting King Slime is completely optional and not required for game progression, but his defeat may reward the player with money and useful items.
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius:15px;">Eye of Cthulu</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="Eye_of_Cthulhu.gif" class="thumbnail" height="400" width="280">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Eye of Cthulu</h1><br>
+      </div>
+      <p>• The Eye of Cthulhu is a pre-Hardmode boss. It is one of the first bosses a player may encounter, as it spawns automatically when a relatively early level of game advancement is achieved. It can also be summoned manually with the Suspicious Looking Eye at night<br><br>
+        • It has a 1/3 (33.33%) chance of spawning automatically each night, if the following conditions apply:<br>
+        - The Eye of Cthulhu has not yet been defeated in the current world.<br>
+        - At least one player in the world has at least 200 maximum health and more than 10 defense.<br>
+        - At least four town NPCs (including the Traveling Merchant and town pets) are present in the world. <br><br>
+        • If spawning this way, its arrival is announced by the status message "You feel an evil presence watching you...".
+        If the player is sufficiently far underground, the Eye of Cthulhu will not spawn until they return to the Surface. If they remain underground all night, the boss will not spawn at all.</p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Brain of Cthulu</h1><br>
+    <div class="container">
+      <div class="guide">
+
+        <img src="Brain.gif" class="thumbnail" height="300" width="300">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Brain of Cthulu</h1><br>
+      </div>
+      <p>• The Brain of Cthulhu is a pre-Hardmode, Crimson-themed boss resembling a large, flying brain. It can be summoned when 3 Crimson Hearts are destroyed in a Crimson world, or when a player uses a Bloody Spine anywhere in The Crimson or Underground Crimson biome.<br><br>
+        • The Brain of Cthulhu has two stages. In the first, the Brain is invulnerable and teleports randomly around the player.
+        20 Creepers spawn along with the Brain and orbit the boss at high speed. Creepers do not respawn once they are killed. All Creepers must be destroyed first before the Brain of Cthulhu enters its second phase, where it becomes vulnerable to attack and can be killed.<br><br>
+        • Defeating the Brain of Cthulhu and its attendant Creepers is the only way to obtain Tissue Samples, and is one of the ways to obtain usable quantities of Crimtane Ore. Defeating the Brain of Cthulhu for the first time allows the Tavernkeep NPC to spawn.<br><br>
+        • The Brain of Cthulhu is the Crimson counterpart to the Eater of Worlds.<br><br>
+      </p>
+    </div>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Eater of Worlds</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="eow.png" class="thumbnail" height="250" width="430">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">EOW</h1><br>
+      </div>
+      <p>• The Eater of Worlds is a pre-Hardmode Corruption-themed worm boss. It is summoned using Worm Food from within the Corruption and Underground Corruption, or by destroying 3 Shadow Orbs that spawn in Corruption-filled worlds. It can be summoned at any time of day.<br><br>
+        • The Eater of Worlds is not a single target, but a string of segments with individual life counters. When any inner body segment is destroyed, it splits into multiple smaller worms, each with their own head and tail. Each section of the Eater must be killed in order to defeat the entire boss.<br><br>
+        • The Eater of Worlds, like all worms, is immune to lava.
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Deerclops</h1><br>
+    <div class="container">
+      <div class="guide">
+
+        <img src="deerclops.gif" class="thumbnail" height="300" width="300">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Deerclops</h1><br>
+      </div>
+      <p>• The Brain of Cthulhu is a pre-Hardmode, Crimson-themed boss resembling a large, flying brain. It can be summoned when 3 Crimson Hearts are destroyed in a Crimson world, or when a player uses a Bloody Spine anywhere in The Crimson or Underground Crimson biome.<br><br>
+        • The Brain of Cthulhu has two stages. In the first, the Brain is invulnerable and teleports randomly around the player.
+        20 Creepers spawn along with the Brain and orbit the boss at high speed. Creepers do not respawn once they are killed. All Creepers must be destroyed first before the Brain of Cthulhu enters its second phase, where it becomes vulnerable to attack and can be killed.<br><br>
+        • Defeating the Brain of Cthulhu and its attendant Creepers is the only way to obtain Tissue Samples, and is one of the ways to obtain usable quantities of Crimtane Ore. Defeating the Brain of Cthulhu for the first time allows the Tavernkeep NPC to spawn.<br><br>
+        • The Brain of Cthulhu is the Crimson counterpart to the Eater of Worlds.<br><br>
+      </p>
+    </div>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Queen Bee</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="queenbee.gif" class="thumbnail" height="250" width="300">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Queen Bee</h1><br>
+      </div>
+      <p>• Queen Bee is a pre-Hardmode boss. She is summoned by breaking the Larva inside Bee Hives of the Underground Jungle, or by using an Abeemination anywhere within the Jungle. She can inflict the Poisoned debuff.<br><br>
+        • Queen Bee has three distinct attack patterns:<br>
+        - She will level herself horizontally with the player and fly back and forth three times in an attempt to ram the player.<br>
+        - She will spawn Bees while hovering (which will include larger ones in Expert mode), which attack the player. During this time the variables for how many bees she summons could be 6, 12 or 18.<br>
+        - Similar to Hornets, Queen Bee will rapidly fire poisonous stingers at the player. During this pattern, she will alternate between hovering above the player, and positioning herself to swoop in at the player from above<br>
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Skeletron</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="skeletron.png" class="thumbnail" height="400" width="400">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Skeletron</h1><br>
+      </div>
+      <p>• Skeletron is a large skeletal head and two hands. It is initially summoned by speaking to the Old Man NPC at the entrance of the Dungeon and activating his curse at night, but can be summoned again by killing the Clothier while equipped with the Clothier Voodoo Doll at night<br><br>
+        • Defeating Skeletron for the first time grants unlimited access to all Dungeon areas for players within the current world and allows the Clothier NPC to move into an available vacant house.<br><br>
+        • Additionally, defeating Skeletron also causes Old Shaking Chests to rarely spawn in the Caverns layer, and, upon unlocking the chest with a Golden Key in their inventory, releases the Elder Slime town pet.<br><br>
+        • If attempting to enter the Dungeon before killing Skeletron, Dungeon Guardians spawn once a player reaches a certain depth. This enemy deal 1,000 damage and generally kill any player in a single hit. Managing to defeat a Dungeon Guardian does not grant access to the Dungeon, thus defeating Skeletron is mandatory for accessing the Dungeon safely.<br><br>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Wall of Flesh</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="Wall_of_Flesh.gif" class="thumbnail" height="500" width="250">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">WOF</h1><br>
+      </div>
+      <p>•The Wall of Flesh is the final and strongest pre-Hardmode boss, spawnable only in The Underworld. Once it is defeated, the world permanently converts to Hardmode, which brings new content and challenges. This means that once the Wall is defeated, new biomes will spawn, new monsters will attack you, and the game can be beaten.<br><br>
+        • To defeat the Wall of Flesh, the player must attack either its eyes or its mouth. They all share the same life counter, so attacking any of the two will deplete the total health of the boss. However, the eyes have less defense (thus take more damage) than the mouth. No other parts of the Wall can be damaged.<br><br>
+        • The Wall of Flesh is summoned immediately 75 blocks away from all visible players when a Guide Voodoo Doll is destroyed by being dropped into lava in the Underworld while the Guide is alive, killing the Guide. Dropping the doll into lava outside of Underworld, regardless if the Guide is alive, will not spawn it, and the Voodoo Doll is destroyed with no effect.<br><br>
+        • he Wall of Flesh can also be summoned by letting the Guide be killed in the Underworld while the Guide is in contact with lava. Using this method, the Guide can die by any means, either from a player, an enemy or the environment, as long as he is touching lava when he dies<br><br>
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;font-size: 50px;">Hardmode Bosses</h1><br>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Queen Slime</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="QueenSlime.gif" class="thumbnail" height="500" width="600">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Queen Slime</h1><br>
+      </div>
+      <p>• Queen Slime is an early-Hardmode, Hallow-themed boss. Her appearance is that of a massive, translucent pink slime wearing a silver crown and engulfing a colorful crystal.<br><br>
+        • Fighting Queen Slime is completely optional and is not required for game progression—much like her Pre-Hardmode counterpart, King Slime—but her defeat may reward the player with useful items.<br><br>
+        • Queen Slime can be spawned in the Hallow by using a Gelatin Crystal—if used outside the Hallow, nothing will happen and the item will not be consumed. The crystal is consumed upon use, immediately summoning the boss.<br><br>
+        • The Gelatin Crystal can be found in the Underground Hallow among Crystal Shards growing on Pearlstone and Pink Ice blocks.
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">The Twins</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="twins.gif" class="thumbnail" height="400" width="300">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">The Twins</h1><br>
+      </div>
+      <p>• The Twins are a Hardmode mechanical boss which is essentially a more difficult version of the Eye of Cthulhu. The Twins are two separate flying entities, Retinazer and Spazmatism, connected by a tendril, each with its own attack pattern and health count. Both must be killed in order to defeat the boss.<br><br>
+        • The Twins can be summoned manually using a Mechanical Eye at night (7:30 PM to 4:30 AM). They also have a 1/10 (10%) chance to spawn naturally at dusk once a Demon or Crimson Altar has been destroyed, as long as they have not yet been defeated at least once in the current world. If spawning this way, their arrival is announced by the status message "This is going to be a terrible night...".<br><br>
+        • The Twins must be killed before dawn, otherwise they flee and despawn.<br><br>
+        • There are two eyes: Retinazer and Spazmatism. Retinazer is a laser-shooting eye with a red iris, while Spazmatism is an eye with a green iris that shoots Cursed Flames.
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">The Destroyer</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="destroyer.png" class="thumbnail" height="300" width="700">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">The Destroyer</h1><br>
+      </div>
+      <p>• The Destroyer is a Hardmode mechanical boss which is essentially a more difficult version of the Eater of Worlds. Like the Eater of Worlds, it is a very large worm. <br><br>
+        • Although it appears to be similarly made up of many segments, individual segments cannot die, and The Destroyer will not split apart into multiple entities; its segments share a singular health pool. Like other worms, The Destroyer takes increased damage from attacks that damage multiple segments at once.<br><br>
+        • The Destroyer can be summoned manually using a Mechanical Worm at night (7:30 PM to 4:30 AM). It also has a 1/10 (10%) chance to spawn naturally at dusk once a Demon or Crimson Altar has been destroyed, as long as it has not yet been defeated at least once in the current world. If spawning this way, its arrival is announced by the status message "You feel vibrations from deep below...".<br><br>
+        • Each of The Destroyer's segments fires lasers at the player. The red-lit segments contain a Probe, which is an independent flying enemy that is launched periodically as the boss takes damage and also fires lasers. Probes can be killed individually once detached, and never return to The Destroyer..<br><br>
+        • The Destroyer must be killed before dawn, otherwise it flees and despawns.
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Skeletron Prime</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="skelprime.gif" class="thumbnail" height="400" width="600">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Skeletron Prime</h1><br>
+      </div>
+      <p>• Skeletron Prime is a Hardmode mechanical boss which is essentially a more difficult version of Skeletron. It consists of a head and four limbs, but, similarly to Skeletron, only the head needs to be defeated to defeat the boss.<br><br>
+        • Skeletron Prime can be summoned manually using a Mechanical Skull at night (7:30 PM to 4:30 AM). It also has a 1/10 (10%) chance to spawn naturally at dusk once a Demon or Crimson Altar has been destroyed, as long as it has not yet been defeated at least once in the current world. If spawning this way, its arrival is announced by the status message "The air is getting colder around you...".<br><br>
+        • If Skeletron Prime is not defeated by dawn, it will behave much like a Dungeon Guardian: It will cease using its limbs and instead charge at the player at extremely high speeds, dealing usually lethal damage upon contact.<br><br>
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Plantera</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="plantera.gif" class="thumbnail" height="300" width="300">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Plantera</h1><br>
+      </div>
+      <p>• Plantera is a Hardmode boss that can be fought in the Underground Jungle after all three mechanical bosses (The Twins, The Destroyer, and Skeletron Prime) have been defeated.<br><br>
+        • After all three mechanical bosses have been defeated, Plantera's Bulbs will randomly spawn in the Underground Jungle (indicated by the status message "The jungle grows restless..."). These bulbs emit a faint pink light in dark areas and immediately cause Plantera to spawn upon being destroyed, usually a fair distance off-screen. The bulbs can be broken in various ways including with a pickaxe or drill, with explosives, with lava, or if the jungle grass underneath them is removed, <br><br>
+        • Plantera drops a Temple Key upon being defeated, allowing access to the Jungle Temple.<br><br>
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Golem</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="Golem.gif" class="thumbnail" height="300" width="300">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Golem</h1><br>
+      </div>
+      <p>• Golem is a Hardmode, post-Plantera boss found in the Jungle Temple and is by far one of the easiest bosses in the game relative to game progression.<br><br>
+        • Golem has two forms. During the first form, its two fists and its head can be attacked. Like Skeletron, destroying the fists is not needed, but can be helpful. Once the head's health is depleted, it begins flying above the body while shooting fireballs and eye beams, leaving the body open to attack. The body will jump around and punch madly in this form. Defeating the body will defeat Golem. <br><br>
+        • Golem is summoned by using the Lihzahrd Power Cell on the Lihzahrd Altar, located in the final Jungle Temple chamber. A Lihzahrd Power Cell is contained within each of the Jungle Temple's Lihzahrd Chests, and can be dropped rarely by Lihzahrds or Flying Snakes. <br><br>
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Duke Fishron</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="Duke_Fishron.gif" class="thumbnail" height="350" width="350">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Duke Fishron</h1><br>
+      </div>
+      <p>• Duke Fishron is a Hardmode boss. While he can be summoned as soon as Hardmode is initiated, he can pose a serious threat to new or underprepared players and should be fought later on in the game.<br><br>
+        • Some players may challenge him with post-mechanical bosses gear, but most players may want to wait until post-Golem to battle him. Fighting Duke Fishron is completely optional and not required for game progression, but his defeat will reward the player with powerful weapons.<br><br>
+        • Duke Fishron is summoned by fishing in the Ocean using a Truffle Worm as bait. The Truffle Worm is a rare critter that must be caught with the Bug Net, Golden Bug Net, or Lavaproof Bug Net in an underground Glowing Mushroom biome. Once the bobber bobs, reeling in the line spawns Duke Fishron, who emerges from the water, pauses for a moment, and then begins attacking the player.<br><br>
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Empress of Light</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="Empress_of_Light.gif" class="thumbnail" height="500" width="500">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Empress of Light</h1><br>
+      </div>
+      <p>• The Empress of Light is a Hardmode, post-Plantera boss summoned by killing a Prismatic Lacewing. She is generally fought at night, and becomes "enraged" with greatly increased damage during the day.<br><br>
+        • While she can be fought as soon as Plantera is defeated, she is significantly more difficult than most Hardmode bosses and will typically require post-Golem gear. The Empress of Light fight is optional and is not required for game progression, but her weapons can be greatly beneficial to players, provided they are skilled enough to take her on.<br><br>
+        • The Empress of Light is summoned by killing a Prismatic Lacewing, a rare critter that spawns in the Hallow on the surface between dusk (7:30 PM) and midnight (12:00 AM) once Plantera has been defeated in the current world. It can be detected by the Lifeform Analyzer and its upgrades.
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Lunatic Cultist</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="Lunatic_Cultist.gif" class="thumbnail" height="200" width="200">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Lunatic Cultist</h1><br>
+      </div>
+      <p>• The Lunatic Cultist is a Hardmode, post-Golem boss summoned by killing the Cultists that spawn at the Dungeon's entrance after Golem is defeated. Defeating the Lunatic Cultist initiates the Lunar Events.<br><br>
+        • While she can be fought as soon as Plantera is defeated, she is significantly more difficult than most Hardmode bosses and will typically require post-Golem gear. The Empress of Light fight is optional and is not required for game progression, but her weapons can be greatly beneficial to players, provided they are skilled enough to take her on.<br><br>
+        • After all four Celestial Pillars have been destroyed, The Moon Lord will spawn and the Cultists will respawn at the Dungeon entrance, allowing the player to fight the Lunatic Cultist and initiate the Lunar Events again.<br><br>
+        • Unlike most bosses, the Lunatic Cultist does not drop any weapons; however, it does drop the Ancient Manipulator, a placeable item that is used to craft many endgame items.
+      </p>
+    </div>
+
+    <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Moon Lord</h1><br>
+    <div class="container">
+      <div class="guide">
+        <img src="Moon_Lord.gif" class="thumbnail" height="500" width="500">
+        <h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Moon Lord</h1><br>
+      </div>
+      <p>• The Moon Lord is a Hardmode, post-Lunatic Cultist boss. He is the final boss of the game.<br><br>
+        • The Moon Lord can be spawned by destroying the four Celestial Pillars or by using a Celestial Sigil in any world where Golem has been defeated. He will then spawn one minute after the status message "Impending doom approaches..." appears,
+        or 12 seconds if spawned using the Celestial Sigil. After this message appears, the screen will go dim, the music will gradually become quieter until it goes silent, and all objects and walls will oscillate back and forth. It will then go back to normal. This will happen 5 times; each time the screen will go darker and all objects and walls will oscillate more violently until the 5th time, when Moon Lord will spawn.<br><br>
+        • The Moon Lord has two hands and a head that must be killed before his core becomes available for attack. He positions his two hands on either side of the player some distance away.<br><br>
+        • Each hand, as well as his head, contains a vulnerable eye-like target that is each periodically closed off and opened via an eyelid. These may only be damaged during their "open" states. The core, which is the only part required to be destroyed in order to defeat the boss, only becomes vulnerable when all eye sockets are destroyed.<br><br>
+        • The Moon Lord can teleport to players if all of them get too far out of range.
+      </p>
+    </div>
+
+  </section>
+  <br><br><br>
+  </section>
+
+  <script>
+    window.onscroll = function() { myFunction() };
+
+    var nav = document.getElementById("nav");
+    var sticky = nav.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        nav.classList.add("sticky")
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+  <footer>
+    <p>&copy;All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>

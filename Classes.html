@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terraria Fandom: Classes</title>
+<style>
+    body {
+        font-family: cursive;
+        margin: 0;
+        padding: 0;
+        background-color: #9EC8B9;
+		background-image: url("corrupt.gif");
+		margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+		}
+    header {
+        background-image: url(classes.png);
+		background-color:#092635;
+        background-position: center;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    nav {
+        background-color: #1B4242;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+        background-color: #666;
+    }
+    section {
+        padding: 20px;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery img {
+        width: 400px;
+        margin: 10px;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+    footer {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 2px;
+        position: fixed;
+        bottom: 0;
+		opacity: 0.8;
+        width: 100%;
+    }
+	.center-image{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    }
+	.guide {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+	}
+	p {
+	font-size: 20px;
+	}
+    .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; /* Gap between divs */
+    padding: 20px;
+	background-color: #344C64;
+    color: white;
+    padding: 20px;
+	border-radius:15px;
+    }
+    .container-text {
+    background-color: black;
+    padding: 20px;
+    }
+    .image-div {
+    background-color: #9EC8B9;
+    padding: 20px;
+    }
+	.thumbnail { 
+    height:auto;
+	max-width:100%;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+     } 
+	 .thumbnail:hover { 
+     transform: scale(1.15); 
+	 }
+	.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    }
+  @media (max-width: 600px) {
+	  .container {
+	    grid-template-columns: 1fr;
+	  }
+	
+	  .thumbnail {
+	    width: 100%;
+	    height: auto;
+	    display:flex;
+	    flex-wrap: wrap;
+	  }
+	}
+	
+	@media (max-width: 480px) {
+	  .container {
+	    padding: 10px;
+	  }
+	}
+	
+</style>
+</head>
+<body>
+
+<header>
+    
+	<img src="Terraria.png" style="max-height:100px;max-width:400px;" alt="Image 0">
+</header>
+
+<nav id = "nav">
+    <a href="index.html">Home</a>
+    <a href="NPC.html">NPCs</a>
+    <a href="Bosses.html">Bosses</a>
+    <a href="Classes.html">Classes</a>
+</nav>
+<h1 style="background-color:#344C64;color:white;text-align:center;font-size:40px;">Classes</h1><br>
+<img src="classes2.png" class = "thumbnail" style="display: block;margin: 0 auto;border-radius: 10%;max-height:450px;width:850px;height:auto;max-width:100%;">
+
+<section>
+    <h1 style="background-color:#1B4242;color:white;display:run-in;border-radius:15px;"> About </h1>
+	<section style="background-color:#344C64;border-radius:15px;color:white;">
+    <p>• Terraria has no formal player class or leveling system. However, weapons can be grouped into four ( five) distinct categories based on their damage type – melee, ranged, magic, and summoning. Each class has its strengths and weaknesses and has a wide variety of weapons to choose from.</p>
+	<p>• Each class gains more complex abilities as the game progresses, enabling more strategic variety in combat. It is advised for players to try out every weapon they find to help determine what works best for them. It is also recommended to use buff potions and healing potions to increase efficiency and survivability in combat (especially during events and boss fights).</p>
+	<p>• In general, it is recommended to focus on one class. Many armors, accessories, and buffs only benefit a specific class, especially later into the game. Nonetheless, even when not specifically using a hybrid set, backup weapons from another class can be helpful should the situation require a different weapon. Furthermore, each class has at least one minion slot, so it is recommended to have it utilized at all times.</p><br>
+	</section>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Melee</h1><br>
+	<div class ="container">
+		<div class="guide">
+			<img src="melee2.png" class="thumbnail" height="400" width="400"> 
+			<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Melee</h1><br>
+		</div>
+		<p>• The melee class is powerful, sporting high defense and damage as well as decent crowd control.<br><br>
+		• It utilizes weapons such as swords, spears, sickles, boomerangs, flails, and yoyos. Many melee weapons have a short attack range, and those that are viable at a distance tend to do lower damage than their close-range counterparts.<br><br>
+		• Melee users are good at taking lots of hits without losing lots of health, which helps with tougher enemies and Bosses.<br><br>
+		• Melee is generally the most straight-forward class, as using the weapons and dealing decent damage with them doesn't require any help.
+		
+		</p>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Ranged</h1><br>
+	<div class ="container">
+	 <p>• Rangers are able to attack from a distance, doing high single-target, piercing, or splash damage.<br><br>
+	    • They utilize weapons like bows and guns, as well as thrown objects. Ranged users must constantly acquire ammunition, unless using the Endless Quiver or Endless Musket Pouch.  This can be done through crafting or purchasing from the Arms Dealer<br><br>
+		• Rangers have decent defense, and are good at killing enemies while keeping a safe distance. For many weapons that doesn't use regular ammo (such as the Nail Gun or the Candy Corn Rifle), players can buy the ammo from the Arms Dealer while having the weapon in their inventory. <br><br>
+		• There are different Arrows, Bullets, Darts and Rockets that each have their own use and effect. Using the right one in a situation can make a huge difference.
+	</p>
+		<div class="guide">
+	
+	<img src="ranged2.jpg" class="thumbnail" height="400" width="800">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Ranger</h1><br>
+	    </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Magic</h1><br>
+	<div class ="container">
+	   <div class="guide">
+	
+	<img src="mage.png" class="thumbnail" height="300" width="600"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Mage</h1><br>
+	   </div>
+	    <p>• Magicians are fragile but highly varied in attack style, often utilizing special mechanics such as homing, lifesteal, and area-of-effect damage<br><br>
+        • They are held back by reliance on mana, which regenerates very slowly unless the Mana Regeneration buff is in effect. Mana becomes less of a problem as the player progresses, as they obtain helpful Armors and Accessories such as the Mana Flower.<br><br>
+		• Enemies also have a high chance to drop mana when killed by a player with less than full Mana, which proves useful in situations with lots of enemies where they'll end up using lots of mana.<br><br>
+        • Magic-users must craft or purchase mana potions if they wish to recover mana instantly.<br><br>
+        </p>
+	 </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Summoning</h1><br>
+	<div class ="container">
+	 <p>• Summoners utilize Minions to deal damage for them. This makes summoners great for farming enemies or if they have to go do something.<br><br>
+	    • Whips are the primary weapons that will focus summons and increase their damage, as well as allowing the player to deal damage themself<br><br>
+		• Different minions are useful for different situations, as some have high accuracy while some have less, and some are grounded while others fly.
+         Summoners have very low defense, with even Stardust armor having only 38 defense, so the overall goal of a summoner is to avoid all attacks while letting their minions and their whips deal the damage.<br><br>
+        • Many people stack the effects of whips, utilizing combos such as the Durendal to gain attack speed and the Dark Harvest to deal lots of damage. Summoner armors are essential to maximizing damage output, and for people who don't wear summoner armors, summons have very little power, however some people decide to do it for the defense.
+	</p>
+		<div class="guide">
+	
+	<img src="summoner.png" class="thumbnail" height="400" width="700">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Summoner</h1><br>
+	    </div>
+	</div>	
+</section>
+<br><br><br>
+</section>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var nav = document.getElementById("nav");
+var sticky = nav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky")
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+    <p>&copy;All rights reserved.</p>
+</footer>
+
+</body>
+</html>
