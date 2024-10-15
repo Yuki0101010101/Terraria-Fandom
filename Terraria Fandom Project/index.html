@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terraria Fandom</title>
+<style>
+    body {
+        font-family: cursive;
+        margin: 0;
+        padding: 0;
+        background-color: #9EC8B9;
+		background-image: url("terrariabg2.png");
+		margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+		font-weight: bolder;
+		}
+    header {
+        background-image: url("terrabg.png");
+		background-position: center;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+        background-color: #666;
+    }
+
+    section {
+        padding: 20px;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery img {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+    .patchnotes-item {
+    display: inline-block;
+    width: calc(100% - 40px);
+    max-width: 500px; 
+    margin: 20px;
+    text-align: center;
+    font-family: cursive;
+    background-color: #5C8374;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    padding: 10px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    }
+@media only screen and (max-width: 768px) {
+    .patchnotes-item {
+        width: calc(90% - 40px); 
+        max-width: 100%; 
+    }
+    }
+@media only screen and (max-width: 480px) {
+    .patchnotes-item {
+        width: calc(90% - 40px);
+    }
+    }
+    .patchnotes-item:hover {
+        transform: translateY(-5px);
+    }
+	.thumbnail { 
+    top:-50px; 
+	border-radius: 15px;
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+     } 
+	.thumbnail:hover { 
+     transform: scale(1.2); 
+	 }
+    footer {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 2px;
+        position: fixed;
+        bottom: 0;
+		    opacity: 0.7;
+        width: 100%;
+    }
+	 {
+	    font-size: 20px;
+	}
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+     }
+
+</style>
+</head>
+<body>
+
+<header>
+    
+	<img src="Terraria.png" style="height:auto;width:100%;max-width: 400px;max-height:100px;" alt="Image 0">
+</header>
+
+<nav id ="nav">
+     <a href="Fandom.html">Home</a></a>
+     <a href="NPC.html">NPCs</a></a>
+    <a href="Bosses.html">Bosses</a>
+    <a href="Classes.html">Classes</a>
+</nav>
+
+<section>
+  
+
+    <h1 style="background-color:#1B4242;color:white;display:run-in;border-radius: 15px;text-align:center;">  About </h1>
+    <p style="text-align:center;">Welcome to our fandom page! Here you can find more useful information about different contents in the game like NPCs, Bosses, and more!</p>
+	<div class="guide">
+	<img src="neoncat.gif" class="thumbnail"; style ="display: block;margin: 0 auto;border-radius: 50px;width: 100%;max-width:800px;">
+	</div>
+	<h1>The Game</h1>
+	<p style="display:run-in;border-radius: 15px;">Terraria is a land of adventure! A land of mystery! A land that's yours to shape, defend, and enjoy. Your options in Terraria are limitless. Are you an action gamer with an itchy trigger finger? A master builder? A collector? An explorer? There's something for everyone.
+Start by building basic shelter, then dig for ore and other resources. Discover and craft over 500 weapons of magic, ranged, melee and summon varieties, as well as armor, and use them to battle hundreds of different enemies. Soon you'll be going head-to-head with any of a dozen enormous bosses. Go fishing, ride a mount, find Floating Islands, build houses for helpful NPCs, and much, much more</p>
+</section>
+
+<section>
+    <h1 style="background-color:#1B4242;color:white;display:run-in;border-radius:15px;text-align:center;">  Gallery </h1>
+    <div class="gallery">
+        <a href="NPC.png"><img src="NPC.png" alt="Image 1"></a>
+        <a href="Bosses.png"><img src="Bosses.png" alt="Image 2"></a>
+        <a href="Crafting.png"><img src="Crafting.png" alt="Image 3"></a>
+        <a href="classes1.png"><img src="classes1.png" alt="Image 4"></a>
+    </div>
+</section>
+
+<section>
+    <h2 style= text-align:center;>Top 3 Latest Patch Notes</h2>
+    <div class="patchnotes">
+        <div class="patchnotes-item">
+            <h3>Version 1.4.4.9</h3>
+            <ul>
+			<li>Updated localization of non-English languages to include all of the post-1.4.4 hotfix content and text adjustments & changes.</li>
+			<li>Recorded Music Boxes thrown into Shimmer will now be transmuted back into blank Music Boxes.</li>
+			<li>Updated over one hundred sprites to modernize some older and dated assets</li>
+			<li>In tandem with the above, reset the scale stat on about 90 swords and tools back to 1. Over time and various updates, many of these weapons had their "scale" multiplier increased, a balancing stat that increases their size to give them a bigger hitbox. Unfortunately, this results in increasingly distorted and inconsistent pixel size across our weapons. All of the affected weapons/tools have had their sprite increased in size to reflect their actual in-game size, and then the scaling factor reduced back down to 1. This will result in both modernized versions of some old sprites, but less stretched, size appropriate weapon sprites to match their intended size. In practice, this will result in minimal actual impact on their in-game hitbox size, but when there is a change, it is almost always a difference of a pixel or two, and usually in favor of making the weapon slightly bigger.<br></li>
+			
+			</ul>
+            
+        </div>
+        <div class="patchnotes-item">
+            <h3>Version 1.4.4.8</h3>
+            
+			<ul>
+            <li>Made some optimizations to Mac performance. We are interested in feedback on how successful this is, and if possible, will try to follow up on other areas that also need improvement. For the time being, the most notable examples to test out are on the player creation menu and around Mannequins (especially with large numbers of Mannequins), but other general performance improvements may be expected. Please let us know if there are any improvements or issues as a result of the optimizations!</li>
+			<li>Biome Style buttons on the Camera Mode biome interface now have mouseover text showing what biome they represent.</li>
+			<li>Right clicking out of search bars in the Bestiary and Research menus will now also exit the search, just like Left Clicking previously did.</li>
+			<li>Lava Charm and Molten Charm now have vanity accessory visuals</li>
+			<li>War Table Banners and Hanging Pots/Hanging Brazier can now be hung from platforms in both the up and down hammered position</li>
+			<li>Added flavor text to Bone Pickaxe.</li>
+			<li>Added a loading tip and Guide help text indicating the ability to assign/unassign NPC housing.</li>
+			<li>Reduced the duration that loading tips are present on screen during worldgen/load before scrolling to the next.</li>
+			<li>Gold Worms, when thrown into Shimmer in critter form, also turn into Gummy Worms, instead of Faelings, the same as if they were thrown in as an item.</li>
+			<li>Dropping a Sparkle Slime Balloon into Shimmer in item form will now also spawn Diva Slime, instead of it only working when you throw it as a projectile.</li>
+			<li>Pressure Plate Tracks are now shown with Dangersense Potion.</li>
+			<li>Hallowed and Ancient Hallowed armor no longer transmute into each other in Shimmer. Instead, they decraft into Hallowed Bars</li>
+			</ul>
+        </div>
+		<div class="patchnotes-item">
+            <h3>Version 1.4.4.7</h3>
+			<ul>
+			<li>Fixed an issue with day spontaneously setting itself to night.</li>
+			<li>Fixed an issue where Queen Bee and Golem would fail to spawn the first time every launch session, and possibly more often in Multiplayer in some cases.</li>
+			<li>Fixed Bestiary entries not updating their adjusted stats first for the purposes of sorting.</li>
+			<li>Fixed a worldgen issue where Dead Man's Chest minibiome traps could generate over other containers and break them.</li>
+			<li>Fixed an issue where King Slime could be summoned on Remix/Everything seeds by slimes being killed in lava without player interaction. Hurting the slime first will still allow King Slime's spawn to happen if the lava delivers the killing blow, however.</li>
+			<li>Fixed Slimers having an inadvertent double chance to drop Monster Meat.</li>
+			<li>Reverting a change in 1.4.4.6 relating to ipv6 IPs to resolve a bug; will be re-evaluated in a future hotfix.</li>
+			</ul>
+		</div>
+
+    </div>
+	<br><br>
+</section>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var nav = document.getElementById("nav");
+var sticky = nav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky")
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+</script>
+
+<footer>
+    <p>&copy;All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terraria Fandom: NPCs</title>
+<style>
+    body {
+        font-family: cursive;
+        margin: 0;
+        padding: 0;
+        background-color: #9EC8B9;
+		background-image: url("hollow.gif");
+		margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+		font-weight: bolder;
+		}
+    header {
+	    background-image: url("NPC.png");
+		background-position: center;
+        background-color: #322C2B;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+		
+    }
+    nav {
+        background-color: #1B4242;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+        background-color: #666;
+    }
+    section {
+        padding: 20px;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery img {
+        width: 400px;
+        margin: 10px;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+    .patchnotes-item {
+        display: inline-block;
+        width: 500px;
+        margin: 20px;
+        text-align: center;
+		font-family: cursive;
+		background-color:green;
+        border: 1px solid #ccc;
+		vertical-align: top;
+        padding: 10px;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+    }
+    .patchnotes-item:hover {
+        transform: translateY(-5px);
+    }
+    footer {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 2px;
+        position: fixed;
+        bottom: 0;
+		opacity: 0.8;
+        width: 100%;
+    }
+	.center-image{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    }
+	.guide {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+	}
+	p {
+	font-size: 21px;
+	}
+    .container {
+	border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    padding: 20px;
+	background-color: #3AA6B9;
+    padding: 20px;
+    }
+    }
+    .image-div {
+    background-color: #9EC8B9;
+    padding: 20px;
+    }
+	.thumbnail { 
+	height:auto;
+	max-width:100%;
+    top:-50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 15px;
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+     } 
+	 .thumbnail:hover { 
+     transform: scale(1.2); 
+	 }
+	.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    }
+@media (max-width: 600px) {
+	  .container {
+	    grid-template-columns: 1fr;
+	  }
+	
+	  .thumbnail {
+	    width: 100%;
+	    height: auto;
+	    display:;
+	    flex-wrap: wrap;
+	  }
+	}
+	
+	@media (max-width: 480px) {
+	  .container {
+	    padding: 10px;
+	  }
+	}
+</style>
+</head>
+<body>
+
+<header>
+    
+	<img src="Terraria.png" style="max-height:100px;max-width:400px;" alt="Image 0">
+</header>
+
+<nav id ="nav">
+    <a href="index.html">Home</a>
+    <a href="NPC.html">NPCs</a>
+    <a href="Bosses.html">Bosses</a>
+    <a href="Classes.html">Classes</a>
+</nav>
+
+<h1 style="background-color:#FF9EAA;color:white;text-align:center;font-size:40px;">NPCs</h1><br>
+<img src="NPC.png" class = "thumbnail" style="display: block;margin: 0 auto;border-radius: 50%;height:auto;max-width:800px;width: 100%;">
+
+<section>
+    <h1 style="background-color:#1B4242;color:white;display:run-in;border-radius: 15px;">  About </h1>
+	<section style="background-color:#3AA6B9;border-radius: 15px;">
+    <p>• NPCs are friendly automated non-playable characters that provide services to players. Standing near an NPC and pressing the Interact button will open a dialogue window with one or more options 
+	for the player to select. Most NPCs are vendors, displaying a shop inventory when the "Shop" option is selected. They sell items to players in exchange for coins, and can be sold items by a player 
+	to obtain coins. Some NPCs also have other options that perform other functions.</p>
+	<p>• Most NPCs are town NPCs, appearing after various milestones are achieved in game advancement. They move into structures the player must provide, known as houses, which are generally required for town NPCs to remain available.</p>
+	<p>• NPCs can reduce enemy spawn rates in the area, an effect that increases the more of them are present. With 3 or more town NPCs nearby, enemies generally stop spawning on or near the visible screen altogether </p><br>
+	</section>
+	
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Guide</h1><br>
+	<div class ="container">
+	 <p>• The Guide is usually the first NPC a player encounters. He spawns near the player when the world is created. 
+	 He provides tips mainly aimed at new players and displays all crafting recipes (including the crafting station required) an item shown to him is used in.<br><br>
+	 • Unlike most other NPCs, the Guide spawns upon world creation, before a house is available. He will, however, move into the first house built. If he is killed, a proper house will need to be built before he can respawn, but has no additional requirements.<br><br>
+	 • Provides tips and a general guide on how to acquire other NPCs and provides recipes that include an item that is shown to him.<br><br>
+	 </p>
+		<div class="guide">
+	
+	<img src="npc_guide.png" class="thumbnail">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 5px;">Guide</h1><br>
+	     </div>
+	</div>
+	
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Merchant</h1><br>
+	<div class ="container">
+	 <p>• The Merchant is an NPC vendor that will spawn once the following conditions have been met:<br>
+        - There is an empty House.<br>
+        - All players in the game world have more than 50 silver coins between them in their inventories.<br><br>
+	    • Note that only coins in the main inventory or coin slots are counted; savings stored in a portable storage item like the Piggy Bank do not count toward the requirement. <br><br>
+	    • If the Merchant is killed, he will only respawn if the above conditions are met again. This means all players need to have over 50 in their combined inventories.</p>
+		<div class="guide">
+	
+	<img src="merchant.jpg" class="thumbnail" style= "max-height:400px; max-width:500px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Merchant</h1><br>
+	     </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Nurse</h1><br>
+	<div class ="container">
+	 <p>• The Nurse is an NPC that will spawn once the following criteria have been met:<br><br>
+        - There is an empty House.<br>
+		- The Merchant is present.<br>
+        - The player's maximum health is greater than 100.<br><br>
+	    • Healing costs are 1 copper coin per health restored, plus an additional 1 silver coin per active debuff on the player, all multiplied by the Nurse's current Happiness price adjustment, and then doubled if playing on Expert Mode.<br><br>
+	    • The Nurse charges increasing amounts of money for healing as the game progresses</p>
+		<div class="guide">
+	
+	<img src="nurse.jpg" alt="Nurse_img" class="thumbnail" style= "max-height:400px; max-width:400px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Nurse</h1><br>
+	     </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Demolitionist</h1><br>
+	<div class ="container">
+	 <p>• The Demolitionist is an NPC vendor that will spawn once the following criteria have been met:<br>
+        - There is an empty House.<br>
+		- The Merchant is present.<br>
+        - The player has an explosive in the inventory.<br><br>
+	    • If the Demolitionist is killed, he will only respawn if the above conditions are met again.
+		This means an explosive must be placed in the player's inventory again. Having explosives stored in chests or other containers will also fulfill the requirement.<br><br>
+	    </p>
+		<div class="guide">
+	
+	<img src="demolist.gif" class="thumbnail" style= "max-height:350px; max-width:700px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Demolitionist</h1><br>
+	     </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Dye Trader</h1><br>
+	<div class ="container">
+	 <p>• The Dye Trader is an NPC that sells the Dye Vat and other dye-related items. He will move in when the following criteria have been met:<br>
+        - The player has a dye, dye ingredient, or Strange Plant in their inventory, and at least four other town NPCs are in the world. Note that while the Old Man, Traveling Merchant, and town pets count towards this total, the Skeleton Merchant does not.<br><br>
+		- One of the following:<br>
+        - The player has a Strange Plant in their inventory.<br>
+        - The player has a dye or dye ingredient in their inventory, and one of the four major pre-Hardmode bosses has been defeated: Eye of Cthulhu, Skeletron, or Eater of Worlds / Brain of Cthulhu depending on the world's evil biome.<br>
+        - The player has a dye or dye ingredient in their inventory.<br><br>
+		• The Dye Trader will attack nearby enemies with his Exotic Scimitar to defend himself, and may drop his weapon on death.
+	    </p>
+		<div class="guide">
+	
+	<img src="dyetrader.gif" class="thumbnail" style= "max-height:350px; max-width:700px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Dye Trader</h1><br>
+	     </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Skeleton Merchant</h1><br>
+	<div class ="container">
+	 <p>• The Skeleton Merchant is an NPC vendor that randomly spawns in the Cavern layer.<br><br>
+		• He is not a Town NPC and will despawn when off-screen, although enemies will not spawn near him.<br><br>
+        • The Skeleton Merchant's stock changes at dawn (4:30 AM) daily, and he does not need to respawn for it to do so. The majority of the items in his inventory will vary, depending on the current moon phase.<br><br>
+        • He will throw Bones to fend off nearby non-skeletal enemies, while ignoring bosses and most other skeletons.<br><br>
+		• Unlike other NPCs, the Skeleton Merchant does not have a map icon. A Hunter Potion will highlight him.
+	    </p>
+		<div class="guide">
+	
+	<img src="skelmerch.gif" class="thumbnail" style= "max-height:450px; max-width:400px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Skeleton Merchant</h1><br>
+	    </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Angler</h1><br>
+	<div class ="container">
+	 <p>• The Angler is an NPC concerned exclusively with catching fish, who appears as a young child. He does not sell anything, but rather assigns quests to players. Quest objectives generally involve catching him rare fish from particular biomes or layers, for which he dispenses various rewards.<br><br>
+        • The player has a dye, dye ingredient, or Strange Plant in their inventory, and at least four other town NPCs are in the world. Note that while the Old Man, Traveling Merchant, and town pets count towards this total, the Skeleton Merchant does not.<br><br>
+		•The Angler is first encountered as the Sleeping Angler randomly spawning on the sand or on the water surface of the Ocean biome (or rarely in the underworld)<br><br>
+		• He will move in when:<br>
+        - There is an empty house.<br>
+        - The player has interacted with him and has woken him up<br>
+        - The player has a dye or dye ingredient in their inventory.<br><br></p>
+		<div class="guide">
+	
+	<img src="angler2.png" class="thumbnail" style= "max-height:450px; width:500px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Angler</h1><br>
+	    </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Zoologist</h1><br>
+	<div class ="container">
+	 <p>• The Zoologist is an NPC vendor that sells animal-related items and vanity. She will move in when the following criteria have been met:<br>
+        - There is an empty house.<br>
+        - The Bestiary has been filled to at least 10% (54 entries).<br>
+        - She sells a large variety of vanity items, in addition to many mounts and pets, critter-themed accessories, and the Universal Pylon, depending on the Bestiary's completion percentage.<br><br>
+        • The Zoologist will attack nearby enemies with her claws to defend herself.</p>
+		<div class="guide">
+	
+	<img src="zoologist.gif" class="thumbnail" style= "max-height:450px; max-width:450px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Zoologist</h1><br>
+	    </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Dryad</h1><br>
+	<div class ="container">
+	 <p>• The Dryad is an NPC vendor that will spawn once the following criteria have been met:<br>
+        - There is an empty house.<br>
+        - The Eye of Cthulhu has been defeated.<br><br>
+        • In addition to selling items, the Dryad can also report the percentages of Corruption/Crimson and Hallow that exist in the current world.<br><br>
+		• When enemies are nearby, the Dryad will periodically grant the Dryad's Blessing buff to players and other town NPCs in the vicinity and displays a leaf barrier effect. The buff grants +8 defense to players and nearby town NPCs.
+		</p>
+		<div class="guide">
+	
+	<img src="dryad.png" class="thumbnail" style= "max-height:400px; width:500px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Dryad</h1><br>
+	    </div>
+	</div>
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Painter</h1><br>
+	<div class ="container">
+	 <p>• The Painter is an NPC vendor who sells paint and painting tools, as well as paintings and wallpapers<br><br>
+	    • He will spawn when the following conditons are met:
+        - There is an empty house.<br>
+        - 8 other town NPCs are in the world. Note that while the Old Man, Traveling Merchant, and town pets count towards this total, the Skeleton Merchant does not.<br><br>
+        - In addition to selling items, the Dryad can also report the percentages of Corruption/Crimson and Hallow that exist in the current world.<br><br>
+		• The Painter's shop inventory changes based on external factors. The biome in which he is talked to, the moon phase, and seasonal events all determine which paintings and wallpapers are available.
+		</p>
+		<div class="guide">
+	
+	<img src="painter.png" class="thumbnail" style= "max-height:350px; max-width:700px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Painter</h1><br>
+	    </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Golfer</h1><br>
+	<div class ="container">
+	 <p>• The Painter is an NPC vendor who sells paint and painting tools, as well as paintings and wallpapers<br><br>
+	    • He will spawn when the following conditons are met:
+        - There is an empty house.<br>
+        - 8 other town NPCs are in the world. Note that while the Old Man, Traveling Merchant, and town pets count towards this total, the Skeleton Merchant does not.<br><br>
+        - In addition to selling items, the Dryad can also report the percentages of Corruption/Crimson and Hallow that exist in the current world.<br><br>
+		• The Painter's shop inventory changes based on external factors. The biome in which he is talked to, the moon phase, and seasonal events all determine which paintings and wallpapers are available.
+		</p>
+		<div class="guide">
+	
+	<img src="golfer3.jpg" class="thumbnail" style= "max-height:400px; width:400px;border-radius: 15px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Golfer</h1><br>
+	    </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Arms Dealer</h1><br>
+	<div class ="container">
+	 <p>• Sells guns, bullets, and other ammunition.<br><br>
+	    • The Arms Dealer is an NPC that will spawn once the following criteria have been met:
+        - There is an empty house.<br>
+        - The player has at least one bullet or bullet-firing gun in their inventory (guns stored in storage items like chests do not count).<br><br>
+		• When threatened by enemies, the Arms Dealer will use a Flintlock Pistol to defend himself.  <br>
+		Once Hardmode begins, he upgrades to a Minishark for self-defense.
+		</p>
+		<div class="guide">
+	
+	<img src="armsdealer2.png" class="thumbnail" style= "max-height:350px; max-width:400px;border-radius: 15px;"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Arms Dealer</h1><br>
+	    </div>
+	</div>
+	
+		<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Taverkeep</h1><br>
+	<div class ="container">
+	 <p>• Sells items that summon and help with fighting the Old One's Army, most of them only in exchange for Defender Medals.<br><br>
+	    • The Tavernkeep is a unique NPC vendor that accepts only Defender Medals as currency for most items, instead of coins.
+		He will only become accessible after the player has defeated the Eater of Worlds or Brain of Cthulhu. Once this criteria is met, he will appear as an Unconscious Man spawning in any layer of the world. Similar to other bound NPCs, 
+		talking to him allows him to claim a house and respawn when killed.<br><br>
+		• The Tavernkeep's sentry summon weapons are associated with the Old One's Army event, and at first can only be used within that event. They function elsewhere only after the event is completed once successfully. <br>
+		</p>
+		<div class="guide">
+	
+	<img src="tavernkeep.png" class="thumbnail" height="450" width="500"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Taverkeep</h1><br>
+	    </div>
+	</div>
+	
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Stylist</h1><br>
+	<div class ="container">
+	 <p>• The Stylist is an NPC that can change the player's hair style and color. She also sells a variety of Hair Dyes, which apply dynamic effects to the player's hair.<br><br>
+	    • The Stylist can be found in Spider Caves, entangled in cobweb. Talking to her will free her, after which she will move into a vacant house if one is available. As with all found/bound NPCs, she spawns the same as enemies. <br><br>
+		• Hair Dyes range in cost from 5 to 30 gold coins.<br><br>
+		• When confronted by enemies, the Stylist will use Stylish Scissors to defend herself <br>
+		</p>
+		<div class="guide">
+	
+	<img src="stylist.png" class="thumbnail" style height="400" width="400"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Stylist</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Goblin Tinkerer</h1><br>
+	<div class ="container">
+	 <p>• The Goblin Tinkerer is an NPC that sells several unique items, as well as providing the Reforge function. 
+		He can be acquired after a Goblin Army has been defeated, spawning randomly in open areas in the Cavern layer. He will appear to be bound at first, and like the Mechanic, Wizard, Golfer, Tavernkeep, Angler, and Stylist, talking to him in this state will free him. He will then respawn as long as a vacant House is available.<br><br>
+	    • The Goblin Tinkerer's reforge option allows the player to randomize the Modifier for a weapon or accessory, which can make the item better or worse than it was originally. Reforges cost one-third of the item's current value, which can also be affected by its current modifier. The reforge cost is also affected by the Goblin Tinkerer's Happiness, and can be decreased by equipping a Discount Card or Greedy Ring. <br><br>
+		• The modifiers of items used in crafting have no effect on the crafted item's modifier. Any modifier given to the newly crafted item will be completely random.<br><br>
+	</p>
+		<div class="guide">
+	
+	<img src="goblintink.jpg" class="thumbnail" height="400" width="400"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Goblin Tinkerer</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Witch Doctor</h1><br>
+	<div class ="container">
+	 <p>• The Witch Doctor is an NPC vendor that will spawn once Queen Bee has been defeated.<br><br><br>
+		• The Witch Doctor will shoot Poison Darts at nearby enemies with a Blowgun to defend himself. In addition to poisoning enemies, his darts deal 20 / 30 / 35 damage at the start of the game, and  as players progress he will gain various stat increases<br><br><br>
+		• The Witch Doctor mostly sell summoner-related equipments and armor during hardmode.
+	</p>
+		<div class="guide">
+	
+	<img src="witchdoctor.png" class="thumbnail" height="400" width="400"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Witch Doctor</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Clothier</h1><br>
+	<div class ="container">
+	 <p>• The Clothier is an NPC vendor who sells mainly vanity items. He is the same character as the Old Man who guards the Dungeon before Skeletron is defeated. After defeating Skeletron,
+		 the Old Man is freed from his curse, and he disappears from the Dungeon's entrance. Once a suitable vacant house is available thereafter, he spawns and sells items. His clothes are no longer tattered, his eyes have turned blue (from red), and he is wearing a Red Hat.<br><br>
+	    • Equipping the Clothier Voodoo Doll allows a player to attack and kill the Clothier (similar to the Guide Voodoo Doll). Doing so at night re-summons Skeletron.<br><br>
+		• When threatened, the Clothier fires shadowflame skull projectiles similar to those produced by the Book of Skulls. They inflict enemies with the Shadowflame debuff for 5–10 seconds.
+	</p>
+		<div class="guide">
+	
+	<img src="clothier.png" class="thumbnail" height="400" width="600"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Clothier</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Mechanic</h1><br>
+	<div class ="container">
+	 <p>• The Mechanic is an NPC who sells various mechanisms, as well as Wire Cutters and Wrenches, allowing the player to construct and activate wired devices like traps and critter engines.<br><br>
+	    • She can be found in the Dungeon in the Cavern layer or below after killing Skeletron, where she spawns randomly as the stationary Bound Mechanic. Talking to her in this state will free her, after which she will respawn as long as a vacant house is available, even if killed. <br><br>
+		• When threatened, the Mechanic will attack nearby enemies. She will throw her Combat Wrench like a boomerang to defend herself, dealing 11 - 19 damage at the start of the game.<br><br>
+	</p>
+		<div class="guide">
+	
+	<img src="mechanic.png" class="thumbnail" height="400" width="550"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Mechanic</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Party Girl</h1><br>
+	<div class ="container">
+	 <p>• The Party Girl is a pre-Hardmode NPC vendor who sells festive novelty items and furniture.<br><br>
+	    • Unlike most other town NPCs, the Party Girl has a random 1/40 (2.5%) chance to spawn every morning and evening once the criteria below are met, rather than being guaranteed to appear once fulfilling them. This random chance also applies to her respawning following her death. Said criteria require that:<br><br>
+		- There is no other NPC waiting to move in.<br>
+		- There is an empty house.<br>
+        - 8 other town NPCs are in the world. Note that while the Old Man, Traveling Merchant, and town pets count towards this total, the Skeleton Merchant does not.
+	</p>
+		<div class="guide">
+	
+	<img src="partygirl.jpg" class="thumbnail" height="400" width="550"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Party Girl</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Wizard</h1><br>
+	<div class ="container">
+	 <p>• The Wizard is a Hardmode NPC vendor who sells magic-related items. As soon as the Wall of Flesh has been defeated, he rarely spawns in the cavern layer or below. <br><br>
+		• Similar to the Goblin Tinkerer, Mechanic, Golfer, Tavernkeep, and Stylist, he first spawns as the stationary Bound Wizard. Interacting with him will free him, after which he will respawn as long as a vacant house is available, even if killed.<br><br>
+	    • When enemies are in his vicinity, the Wizard hurls fireballs at them in a similar fashion to the Flower of Fire while casting an aesthetic magic circle.<br><br>
+		• He will occasionally replace his regular quote with a comment about the player's luck. This is the only way to estimate a player's luck value in the game.
+	</p>
+		<div class="guide">
+	
+	<img src="wizard.png" class="thumbnail" height="400" width="400"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Wizard</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Tax Collector</h1><br>
+	<div class ="container">
+	 <p>• The Tax Collector is a Hardmode NPC that taxes other housed NPCs to earn coins for players. He is obtained by throwing Purification Powder on a Tortured Soul, a rare Underworld enemy. The enemy will transform into the Tax Collector, and if killed, he will respawn like all other town NPCs so long as a vacant house is available. <br><br>
+		• When the Tax Collector is present, 50 copper coins will be earned per real-world minute (each in-game hour), for each NPC that has a house – including the Tax Collector himself. The Tax Collector stores these funds, up to 25 gold coins.<br><br>
+	    • Speaking to him will reveal the amount stored thus far and offer the option to collect. How much he collects per minute varies depending on his current happiness.<br><br>
+		• The Tax Collector will attack nearby enemies with his cane to defend himself.
+	</p>
+		<div class="guide">
+	
+	<img src="taxcollector2.png" class="thumbnail" height="400" width="350"> 
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Tax Collector</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Truffle</h1><br>
+	<div class ="container">
+	 <p>• The Truffle is a Hardmode NPC vendor who sells various Mushroom-themed items, including the Autohammer, Mushroom Spear, and other mushroom-themed items. <br><br>
+		• To get the Truffle to move in, there must be a vacant House in (or near) a Surface Glowing Mushroom Biome (i.e. one that is above 0 elevation).<br><br>
+	    • Surface Glowing Mushroom biomes do not generate naturally and therefore must be manually created. 100 blocks of Mushroom grass and Mushroom plants are required to create a Glowing Mushroom biome. <br><br>
+		• When threatened by enemies, the Truffle will release Mushroom Spores, which hover in air and deal 10 damage.
+	</p>
+		<div class="guide">
+	
+	<img src="truffle.png" class="thumbnail" height="400" width="500">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Truffle</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Pirate</h1><br>
+	<div class ="container">
+	 <p>• The Pirate is a Hardmode NPC that appears after at least one Pirate Invasion has been defeated and a vacant house is available.<br><br>
+		• He also has nearly the exact same texture as the Pirate Captain, an enemy from the Pirate Invasion.<br><br>
+	    • Sells the Cannon and other pirate-themed items.<br><br>
+		• When threatened by enemies, He shoots a Pirate Cannon that deals ranged damage.
+	</p>
+		<div class="guide">
+	
+	<img src="pirate.png" class="thumbnail" height="300" width="500">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Pirate</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Steampunker</h1><br>
+	<div class ="container">
+	 <p>• The Steampunker is a Hardmode NPC vendor. She will appear once the player has defeated at least one mechanical boss and has a place to stay.<br><br>
+	    • Sells the Clentaminator, Jetpack, and other items.<br><br>
+		• The Steampunker will attack nearby enemies using a Clockwork Assault Rifle and High Velocity Bullets for defense.
+	</p>
+		<div class="guide">
+	
+	<img src="steampunker.gif" class="thumbnail" height="300" width="500">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Steampunker</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Cyborg</h1><br>
+	<div class ="container">
+	 <p>• The Cyborg is a Hardmode, post-Plantera NPC vendor that will appear once Plantera has been defeated at least once in the current world and a vacant house is available.<br><br>
+	    • He sells several "high-tech" items, most notably rocket ammunition for launcher weapons.<br><br>
+		• Uses a Proximity Mine Launcher against nearby enemies. His eyes turn red as he fires his weapon.
+	</p>
+		<div class="guide">
+	
+	<img src="cyborg2.png" class="thumbnail" height="400" width="400">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Cyborg</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Santa Claus</h1><br>
+	<div class ="container">
+	 <p>• Santa Claus is a Hardmode NPC vendor that arrives after the Frost Legion has been defeated, but only during the Christmas season ( December 15 – December 31 or unlocked for an in-game day outside of those dates by completing the Frost Moon), 
+		after which he dies. He sells many Christmas-themed decorations and vanities during this time.<br><br>
+	    • If a Snow Globe is obtained and brought into a pre-Hardmode world, Santa Claus can be summoned outside Hardmode by defeating the Frost Legion and having available housing for him.<br><br>
+		• Santa Claus will defend himself against nearby enemies by throwing baubles.
+	</p>
+		<div class="guide">
+	
+	<img src="santa.png" class="thumbnail" height="400" width="400">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Santa Claus</h1><br>
+	    </div>
+	</div>
+
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Princess</h1><br>
+	<div class ="container">
+	 <p>• The Princess is an NPC vendor that will spawn once the following conditions have been met:<br><br>
+	    - There is an empty house.<br>
+		- All other town NPCs (not including Santa Claus or town pets) are present, meaning that she can only spawn after defeating Plantera which is when the Cyborg NPC can move in.<br><br>
+		• The Princess will attack nearby enemies with the Resonance Scepter to defend herself (although the animation of the Scepter is not shown).
+	</p>
+		<div class="guide">
+	
+	<img src="princess.png" class="thumbnail" height="400" width="600">
+	<h1 style="background-color:#1B4242;color:white;text-align:center;border-radius: 15px;">Princess</h1><br>
+	    </div>
+	</div>
+
+
+</section>
+<br><br><br>
+</section>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var nav = document.getElementById("nav");
+var sticky = nav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky")
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+    <p>&copy;All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
